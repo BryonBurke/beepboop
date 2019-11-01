@@ -16,12 +16,12 @@ Output: "0", "Beep!","I'm sorry, Dave. I'm afraid I can't do that." ,3 ,4, 5
 
 Spec 5: The number 13 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 Input: "15"
-Output: ... "9", "Beep! Beep!", "Beep! Beep!", "Boop! Boop!", "I'm sorry, Dave. I'm afraid I can't do that." ,"Beep! Beep!", "Beep! Beep!"
+Output: ... "9", "Beep!", "Beep!", "Boop!", "I'm sorry, Dave. I'm afraid I can't do that." ,"Beep!", "Beep!"
 
 Spec 6: The number 21 should be replaced with "Boop".
 Input: 22:  
-Output: ..."Boop! Boop!", "Boop!", "Boop! Boop!
+Output: ..."Boop!", "Boop!", "Boop!"
 
 Spec 7: The number 32 should be replaced with "I'm sorry, Dave. I'm afraid I can't do that."
 Input: 33:
-Output: ... "Beep! Beep!", "I'm sorry, Dave. I'm afraid I can't do that.", 33
+Output: ... "Beep!", "I'm sorry, Dave. I'm afraid I can't do that.", 33
