@@ -1,10 +1,17 @@
 $(document).ready(function() {
-  $('form#puzzleInput').submit(function(event) {
+  $('form#numInputForm').submit(function(event) {
     event.preventDefault();
 
-    var userInputNum = parseInt$("#userNumEntry").val();
+// Get user input
+    var userInputNum = parseInt($("#userNumEntry").val());
+// return a range of numbers from 0 to the users inputted number
+for (var i =1; i <= userInputNum; i++){
 
-  console.log(userInputNum)
+console.log(i);
+
+}
+
+
 
 
 
