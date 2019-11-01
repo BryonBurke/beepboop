@@ -1,6 +1,9 @@
 $(document).ready(function() {
   $('form#numInputForm').submit(function(event) {
     event.preventDefault();
+     $(".replyToInput").show();
+
+
 
     // Get user input
         var userNumInt = parseInt($("#userNumEntry").val());
@@ -14,24 +17,30 @@ $(document).ready(function() {
 
           if  (  iArray === "13"   ) {
             console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+             $(".result").text("I'm sorry, Dave. I'm afraid I can't do that.");
           }
 
           else if  (  iArray === "21"   ) {
             console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+             $(".result").text("I'm sorry, Dave. I'm afraid I can't do that.");
           }
 
           else if (iArraySplit.includes("3")){
             console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+             $(".result").text("I'm sorry, Dave. I'm afraid I can't do that.");
           }
 
           else if (iArraySplit.includes("2")){
             console.log("boop");
+             $(".result").text("boop");
           }
           else if (iArraySplit.includes("1")){
             console.log("beep");
+             $(".result").text("beep.");
           }
           else {
             console.log(i);
+             $(".result").text(i.toString());
           }
 
         }
