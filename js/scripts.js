@@ -36,11 +36,11 @@ $(document).ready(function() {
           }
 
           else if (iArraySplit.includes("1")){
-            resultArray.push("beep");
+            resultArray.push("beep! ");
 
           }
           else {
-            resultArray.push(i );
+            resultArray.push( i );
 
           }
 
@@ -49,7 +49,9 @@ $(document).ready(function() {
 
 
         }
-console.log(result);
+
+document.getElementById("output").innerHTML = result;
+
   });
 
 });
