@@ -5,11 +5,7 @@ $(document).ready(function() {
     // Get user input
         var userNumInt = parseInt($("#userNumEntry").val());
 
-
-
-    // apply rules and return a list of numbers from 0 to the users inputted number
-        var outNum = 11;
-
+    // apply rules and return a list of numbers from 0 to the users inputted number. use the index for a display counter and compare input for rules
 
         for (var i =0; i < userNumInt; i++){
 
@@ -20,7 +16,7 @@ $(document).ready(function() {
             console.log("I'm sorry, Dave. I'm afraid I can't do that.");
           }
 
-          if  (  iArray === "21"   ) {
+          else if  (  iArray === "21"   ) {
             console.log("I'm sorry, Dave. I'm afraid I can't do that.");
           }
 
@@ -38,25 +34,8 @@ $(document).ready(function() {
             console.log(i);
           }
 
-
-
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
   });
-
-
 
 });
