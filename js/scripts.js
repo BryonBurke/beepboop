@@ -16,11 +16,26 @@ $(document).ready(function() {
           iArray = [i].toString('');
           var iArraySplit = iArray.split('');
 
-          if (iArraySplit.includes("1")){
+          if  (  iArray === "13"   ) {
+            console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+          }
+
+          if  (  iArray === "21"   ) {
+            console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+          }
+
+          else if (iArraySplit.includes("3")){
+            console.log("I'm sorry, Dave. I'm afraid I can't do that.");
+          }
+
+          else if (iArraySplit.includes("2")){
+            console.log("boop");
+          }
+          else if (iArraySplit.includes("1")){
             console.log("beep");
           }
           else {
-            console.log(iArray);
+            console.log(i);
           }
 
 
