@@ -1,3 +1,39 @@
+# _{beepboop}_
+
+#### _{}_
+
+#### By _**{Bryon Burke}**_
+
+## Description
+
+_{This program accepts a number from the user and outputs a sequence of numbers from 0 to their number while substituting strings according to a set of rules. }_
+
+## Setup/Installation Requirements
+
+*
+
+_{Double click the index.html file to start application}_
+
+## Known Bugs
+
+_{There are no known bugs.}_
+
+## Support and contact details
+
+_{For support contact bryonparis@gmail.com}_
+
+## Technologies Used
+
+_{This application uses bootstrap and jquery}_
+
+### License
+
+*{This application Licensed under MIT}*
+
+Copyright (c) 2019 **_{Bryon Burke}_**
+
+
+
 Spec 1: The program returns a range of numbers from 0 to the users inputted number
 Input: "4"
 Output: "0, 1, 2, 3, 4"
