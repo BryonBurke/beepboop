@@ -1,30 +1,30 @@
-# _{beepboop}_
+# beepboop
 
-#### _{}_
 
-#### By _**{Bryon Burke}**_
+
+#### By Bryon Burke
 
 ## Description
 
-_{This program accepts a number from the user and outputs a sequence of numbers from 0 to their number while substituting strings according to a set of rules. }_
+This program accepts a number from the user and outputs a sequence of numbers from 0 to their number while substituting strings according to a set of rules.
 
 ## Setup/Installation Requirements
 
 *
 
-_{Double click the index.html file to start application}_
+Double click the index.html file to start application
 
 ## Known Bugs
 
-_{There are no known bugs.}_
+There are no known bugs.
 
 ## Support and contact details
 
-_{For support contact bryonparis@gmail.com}_
+For support contact bryonparis@gmail.com
 
 ## Technologies Used
 
-_{This application uses bootstrap and jquery}_
+This application uses bootstrap and jquery
 
 ### License
 
@@ -33,6 +33,7 @@ _{This application uses bootstrap and jquery}_
 Copyright (c) 2019 **_{Bryon Burke}_**
 
 
+### Specifications for beepboop
 
 Spec 1: The program returns a range of numbers from 0 to the users inputted number
 Input: "4"
