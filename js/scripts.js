@@ -1,7 +1,3 @@
-$(document).ready(function() {
-  $('form#numInputForm').submit(function(event) {
-    event.preventDefault();
-     $(".replyToInput").show();
 
      // Business Logic
 
@@ -36,6 +32,10 @@ $(document).ready(function() {
 
     // User Interface logic
 
+    $(document).ready(function() {
+      $('form#numInputForm').submit(function(event) {
+        event.preventDefault();
+        $(".replyToInput").show();
      // Get user input
      var userNumInt = parseInt($("#userNumEntry").val());
      // call business logic function for results
